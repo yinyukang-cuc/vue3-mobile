@@ -1,0 +1,39 @@
+{
+  "name": "vue3-mobile",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "eslint --ext .vue,.js ./",
+    "lint:fix": "eslint --fix --ext .vue,.js ./",
+    "prepare": "husky install"
+  },
+  "dependencies": {
+    "amfe-flexible": "^2.2.1",
+    "axios": "^0.26.1",
+    "vant": "^3.4.3",
+    "vue": "^3.2.25",
+    "vue-router": "^4.0.14",
+    "vuex": "^4.0.2"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.3",
+    "@commitlint/config-conventional": "^16.2.1",
+    "@vitejs/plugin-vue": "^2.2.0",
+    "babel-eslint": "^10.1.0",
+    "consola": "^2.15.3",
+    "eslint": "^8.11.0",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^8.5.0",
+    "husky": "^7.0.4",
+    "postcss-pxtorem": "^6.0.0",
+    "prettier": "^2.6.0",
+    "sass": "^1.49.9",
+    "vite": "^2.8.0",
+    "vite-plugin-style-import": "^2.0.0"
+  }
+}
